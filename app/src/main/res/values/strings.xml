@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CustomCalendar</string>
+    <string name="month1">1月</string>
+    <string name="month2">2月</string>
+    <string name="month3">3月</string>
+    <string name="month4">4月</string>
+    <string name="month5">5月</string>
+    <string name="month6">6月</string>
+    <string name="month7">7月</string>
+    <string name="month8">8月</string>
+    <string name="month9">9月</string>
+    <string name="month10">10月</string>
+    <string name="month11">11月</string>
+    <string name="month12">12月</string>
+    <string name="year">"年"</string>
+    <string name="today">今天</string>
+</resources>
