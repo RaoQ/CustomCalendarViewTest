@@ -3,4 +3,70 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="base_theme">#00cccc</color>
+    <color name="base_theme_normal">#828282</color><!--首页文字样式颜色-->
+    <color name="base_calendar_item_light_gray">#f2f2f2</color>
+    <color name="base_calendar_item_light_gray_2">#e2e2e2</color>
+    <color name="base_calendar_item_text_other_month">#e4e3e3</color>
+    <color name="base_calendar_item_text_this_month">#808080</color>
+
+    <color name="information_title">#494949</color>
+    <color name="information_shaow">#77000000</color>
+    <color name="information_refuse">#ff2020</color>
+
+    <color name="discovery_text_rank">#ff7c68</color>
+    <color name="discovery_text_name">#5d5d5d</color>
+    <color name="discovery_index_red">#ff7c68</color>
+    <color name="nearly_select_spinner">#7296b6</color>
+
+    <color name="chat_text_time">#b8b8b8</color>
+    <color name="chat_background_input">#f0f0f0</color>
+
+    <color name="detail_shadow">#bb000000</color>
+
+    <color name="activity_check_green">#7bdd73</color>
+    <color name="activity_manage_yellow">#e6b52e</color>
+
+    <color name="bubble_title">#808080</color>
+    <color name="bubble_pink">#e967a2</color>
+    <color name="bubble_yellow">#f6e43b</color>
+    <color name="bubble_cyan">#abd13d</color>
+    <color name="bubble_red">#e8331b</color>
+    <color name="bubble_blue">#31bee5</color>
+
+    <color name="text_gray_wallet">#bfbfbf</color>
+    <color name="shape_input_solid">#fafafa</color>
+    <color name="shape_input_stroke">#e6e6e6</color>
+    <color name="state_disable_bulue">#98cfcf</color>
+
+
+    <color name="profile_header_time">#acacac</color>
+    <color name="setting_qrcode_background">#333333</color>
+
+    <color name="fafafa">#fafafa</color>
+
+    <color name="yellow_check">#facd89</color>
+    <color name="yellow_pingjia">#f4b34b</color>
+    <color name="red_pingjia">#da534d</color>
+
+    <color name="app_dialog_background">#faf5f5</color>
+    <color name="actionbar_black">#22282e</color>
+    <color name="actionbar_shadow">#c8c8c8</color>
+    <color name="actionbar_translight">#3f000000</color>
+    <color name="actionbar_white">#f2f8fe</color>
+    <color name="divider_gray">#d2d2d2</color>
+    <color name="divider_white_dark">#dfdfdf</color>
+    <color name="divider_white_gray">#e5e5e5</color>
+    <color name="state_white_light">#f2f2f2</color>
+    <color name="tab_hoster_active">#2c2c2c</color>
+    <color name="tab_hoster_normal">#666666</color>
+    <color name="tab_indicator_normal">#b2b2b2</color>
+    <color name="text_black_light">#1e1e1e</color>
+    <color name="text_gray_dark">#787878</color>
+    <color name="text_gray_light">#969696</color>
+    <color name="text_gray_white">#acacac</color>
+    <color name="text_white_dark">#b9b9b9</color>
+    <color name="text_white_light">#dddddd</color>
+    <color name="text_white_soft">#aeaeae</color>
 </resources>

@@ -14,4 +14,14 @@
     <string name="month12">12月</string>
     <string name="year">"年"</string>
     <string name="today">今天</string>
+
+    <string name="calendar_release_activity">活动</string>
+    <string name="calendar_release_sponsor">赞助</string>
+    <string name="calendar_day1">SUN</string>
+    <string name="calendar_day2">MON</string>
+    <string name="calendar_day3">TUE</string>
+    <string name="calendar_day4">WEN</string>
+    <string name="calendar_day5">THU</string>
+    <string name="calendar_day6">FRI</string>
+    <string name="calendar_day7">SAT</string>
 </resources>

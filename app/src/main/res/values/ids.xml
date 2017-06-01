@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_label" type="id" />
+    <item name="action_logo" type="id" />
+    <item name="action_subtitle" type="id" />
+    <item name="action_title" type="id" />
+    <item name="action_up" type="id" />
+    <item name="base_cancel" type="id" />
+    <item name="base_check" type="id" />
+    <item name="base_close" type="id" />
+    <item name="base_container" type="id" />
+    <item name="base_content" type="id" />
+    <item name="base_date" type="id" />
+    <item name="base_delete" type="id" />
+    <item name="base_display" type="id" />
+    <item name="base_head" type="id" />
+    <item name="base_image" type="id" />
+    <item name="base_input" type="id" />
+    <item name="base_label" type="id" />
+    <item name="base_left" type="id" />
+    <item name="base_line" type="id" />
+    <item name="base_list" type="id" />
+    <item name="base_logo" type="id" />
+    <item name="base_menu" type="id" />
+    <item name="base_message" type="id" />
+    <item name="base_modify" type="id" />
+    <item name="base_name" type="id" />
+    <item name="base_page" type="id" />
+    <item name="base_pass" type="id" />
+    <item name="base_phone" type="id" />
+    <item name="base_right" type="id" />
+    <item name="base_save" type="id" />
+    <item name="base_sex" type="id" />
+    <item name="base_summit" type="id" />
+    <item name="base_sure" type="id" />
+    <item name="base_text" type="id" />
+    <item name="base_time" type="id" />
+    <item name="base_tip" type="id" />
+    <item name="base_title" type="id" />
+    <item name="base_update" type="id" />
+    <item name="base_wrapper" type="id" />
+</resources>

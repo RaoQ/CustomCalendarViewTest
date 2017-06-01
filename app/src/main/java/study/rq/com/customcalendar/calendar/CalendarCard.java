@@ -633,42 +633,42 @@ public class CalendarCard extends View {
 
         }
 
-        /**
-         * 绘制上方的字符
-         *
-         * @param canvas
-         * @param dayData
-         */
-        private void drawTopText(Canvas canvas, DayData dayData) {
-            //绘制上方的字符
-            long unix = dayData.getUnix();
-            int topType = dayData.getTopType();
-            String content;
-            float textWidth;
-            float textX;
-            float deltaBaseLine = 0.24f;
-            switch (topType) {
-                case CalendarConstant.TOP_TYPE_TODAY:
-                    content = getResources().getString(R.string.today);
-                    textWidth = paintTopText.measureText(content);
-                    textX = (week - 1 + 0.5f) * cellWidth - textWidth / 2f;
-                    canvas.drawText(content, textX, (j + deltaBaseLine) * cellHeight - paintTopText.measureText(
-                            content, 0, 1) / 2, paintTopText);
-                    break;
-                case CalendarConstant.TOP_TYPE_FIRST_DAY:
-                    content = DateUtil.unix2Month(unix, getContext());
-                    textWidth = paintTopText.measureText(content);
-                    textX = (week - 1 + 0.5f) * cellWidth - textWidth / 2f;
-                    canvas.drawText(content, textX, (j + deltaBaseLine) * cellHeight - paintTopText.measureText(
-                            content, 0, 1) / 2, paintTopText);
-                    break;
-
-                default:
-                    //don't forget default
-                    break;
-            }
-
-        }
+//        /**
+//         * 绘制上方的字符
+//         *
+//         * @param canvas
+//         * @param dayData
+//         */
+//        private void drawTopText(Canvas canvas, DayData dayData) {
+//            //绘制上方的字符
+//            long unix = dayData.getUnix();
+//            int topType = dayData.getTopType();
+//            String content;
+//            float textWidth;
+//            float textX;
+//            float deltaBaseLine = 0.24f;
+//            switch (topType) {
+//                case CalendarConstant.TOP_TYPE_TODAY:
+//                    content = getResources().getString(R.string.today);
+//                    textWidth = paintTopText.measureText(content);
+//                    textX = (week - 1 + 0.5f) * cellWidth - textWidth / 2f;
+//                    canvas.drawText(content, textX, (j + deltaBaseLine) * cellHeight - paintTopText.measureText(
+//                            content, 0, 1) / 2, paintTopText);
+//                    break;
+//                case CalendarConstant.TOP_TYPE_FIRST_DAY:
+//                    content = DateUtil.unix2Month(unix, getContext());
+//                    textWidth = paintTopText.measureText(content);
+//                    textX = (week - 1 + 0.5f) * cellWidth - textWidth / 2f;
+//                    canvas.drawText(content, textX, (j + deltaBaseLine) * cellHeight - paintTopText.measureText(
+//                            content, 0, 1) / 2, paintTopText);
+//                    break;
+//
+//                default:
+//                    //don't forget default
+//                    break;
+//            }
+//
+//        }
 
 
         private void drawText(Canvas canvas, DayData dayData) {

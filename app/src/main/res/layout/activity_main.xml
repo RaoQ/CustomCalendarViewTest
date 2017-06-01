@@ -13,6 +13,13 @@
     <study.rq.com.customcalendar.calendar.CalendarCard
         android:id="@+id/calendar_view"
         android:layout_width="match_parent"
-        android:background="@android:color/darker_gray"
-        android:layout_height="wrap_content" />
+        android:layout_height="200dp"
+        android:background="@android:color/darker_gray" />
+
+    <study.rq.com.customcalendar.oldcalendar.CalendarLayout
+        android:id="@id/base_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/calendar_view"
+        android:orientation="vertical" />
 </RelativeLayout>

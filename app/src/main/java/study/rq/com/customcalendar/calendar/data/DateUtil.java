@@ -251,19 +251,19 @@ public class DateUtil {
         return mCalendar.getTimeInMillis() / 1000L;
     }
 
-    public static int getArrFromUnix(long unix, Map<Integer, DayData> mapDay) {
-        if (mapDay == null || mapDay.size() == 0) {
-            Log.e("test-->>", "参数异常");
-            return -1;
-        }
-        for (Map.Entry<Integer, DayData> entry : mapDay.entrySet()) {
-            if (entry.getValue().getUnix() == unix) {
-                return entry.getKey();
-            }
-        }
-        Log.e("test-->>", "无找到对应数据");
-        return -1;
-    }
+//    public static int getArrFromUnix(long unix, Map<Integer, DayData> mapDay) {
+//        if (mapDay == null || mapDay.size() == 0) {
+//            Log.e("test-->>", "参数异常");
+//            return -1;
+//        }
+//        for (Map.Entry<Integer, DayData> entry : mapDay.entrySet()) {
+//            if (entry.getValue().getUnix() == unix) {
+//                return entry.getKey();
+//            }
+//        }
+//        Log.e("test-->>", "无找到对应数据");
+//        return -1;
+//    }
 
     /**
      * 获取两个日期的月份差

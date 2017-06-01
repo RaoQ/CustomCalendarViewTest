@@ -4,4 +4,40 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="w15">15dp</dimen>
     <dimen name="w3">3dp</dimen>
+
+    <dimen name="oldcalendar_size_title">32dp</dimen>
+    <dimen name="oldcalendar_distance_bottom">75dp</dimen>
+    <dimen name="oldcalendar_distance_margin">60dp</dimen>
+    <dimen name="oldcalendar_week_padding">10dp</dimen>
+    <dimen name="oldcalendar_week_height">50dp</dimen>
+    <dimen name="login_logo_padding">70dp</dimen>
+
+    <dimen name="calendar_size_title">32dp</dimen>
+    <dimen name="calendar_distance_bottom">75dp</dimen>
+    <dimen name="calendar_distance_margin">60dp</dimen>
+
+    <dimen name="calendar_week_padding">10dp</dimen>
+    <dimen name="calendar_week_height">50dp</dimen>
+
+    <dimen name="profile_setting_margin_arrow">20dp</dimen>
+    <dimen name="profile_setting_height_line">42dp</dimen>
+
+    <dimen name="setting_header_title">20dp</dimen>
+    <dimen name="setting_common_padding">18dp</dimen>
+    <dimen name="setting_common_margin_top">15dp</dimen>
+
+    <dimen name="near_line_heiht">30dp</dimen>
+
+    <dimen name="detail_menu_padding">60dp</dimen>
+
+    <dimen name="text_size_sign">32dp</dimen>
+    <dimen name="text_size_rank">30dp</dimen>
+    <dimen name="text_input_huge">20dp</dimen>
+    <dimen name="text_bubble_title">44dp</dimen>
+    <dimen name="text_size_super_tiny">7dp</dimen>
+
+    <dimen name="distance_dialog_password">180dp</dimen>
+
+    <dimen name="appdialog_common_padding_15dp">15dp</dimen>
+    <dimen name="appdialog_common_padding_10dp">10dp</dimen>
 </resources>
